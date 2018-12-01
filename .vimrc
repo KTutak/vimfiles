@@ -33,9 +33,11 @@ set background=dark
 let g:solarized_italic=0
 color solarized
 let g:javascript_plugin_jsdoc = 1
-:set hlsearch
-:set incsearch
+set hlsearch
+set incsearch
 set completeopt-=preview
+map Y y$
+nnoremap <C-L> :nohl<CR><C-L>
 let g:UltiSnipsSnippetDirectories=[$HOME.'/vimfiles/snips']
 let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
